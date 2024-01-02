@@ -1,10 +1,10 @@
 import React from "react";
 import UserContextProvider from "./context/UserContextProvider.jsx";
-import Routes from "./routes/routes.jsx";
+import RouteMe from "./routes/RouteMe.jsx";
 const App = () => {
   return (
     <UserContextProvider>
-      <Routes />
+      <RouteMe />
     </UserContextProvider>
   );
 };

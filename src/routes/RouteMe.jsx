@@ -1,6 +1,6 @@
 import React from 'react'
 import SignUp from '../pages/SignUp.jsx'
-const Routes = () => {
+const RouteMe = () => {
   return (
     <div>    
       <SignUp/>
@@ -8,4 +8,4 @@ const Routes = () => {
   )
 }
 
-export default Routes
+export default RouteMe;

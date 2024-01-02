@@ -9,5 +9,8 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  // base: "//"
+  // base: "//",
+  build: {
+    outDir: 'build', // Specify the output directory
+  },
 })

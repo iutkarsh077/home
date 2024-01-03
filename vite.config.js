@@ -9,5 +9,6 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: "/",
+  base: process.env.NODE_ENV === 'production' ? '/sm-frontend/' : '/',
+  
 })

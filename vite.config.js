@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: '/',
-  publicPath: '/'
+  base: '/home/',
+  publicPath: '/home/'
   
 })

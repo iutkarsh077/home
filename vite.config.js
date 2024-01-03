@@ -10,8 +10,4 @@ export default defineConfig({
   },
   plugins: [react()],
   // base: "//",
-  build: {
-    outDir: 'build', // Specify the output directory
-    assetsDir: '.', // Adjust this line based on your project structure
-  },
 })
